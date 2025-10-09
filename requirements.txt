@@ -1,1 +1,22 @@
-require
+# Core
+NumPy - is a python library used for numerical operations, arrays, and mathematical calculations.  
+Pandas - is a python library that provides data structures like DataFrames for data manipulation, cleaning, and aggregation.
+
+# Visualization
+matplotlib - A plotting library used to create static visualizations like line plots, bbar charts, and scatter plots. 
+seaborn - is built on Matplotlib, used for advanced statistical data visualizations and improved aesthetics.
+plotly - is a python package for data visualization. It is used to create interactive high quality charts, graphs and dashboards. 
+#Dta Handling
+openpyxl - is a python library used for reading, writing, and editing excel files - especially if it has the modern .xlsx format. 
+
+# Machine Learning
+
+statsmodels - used for statistical modelling and hypothesis testing, including t-tests, z-tests and regression analysis.
+scikit-learn: is a python machine learning library used for machine learning algorithms like regression, classification, etc. 
+
+# Jupyter & Development
+jupyter notebook - An interactive environment for writing and executing Python code, organizaing, and documenting results. 
+ipython - Provides an enchanced Python shells used in Jupyter Notebooks.
+
+#Others
+VS Code - is a free, open source code editor developed by Microsft. It is widely used for programming, data analysis, and development projects. 
