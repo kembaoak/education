@@ -26,8 +26,8 @@ The Edgap dataset was obtained from Edgap.org —a platform that provides maps, 
 
 Source: 
 The data was obtained from:
-Edgap dataset: https://www.edgap.org/#4/37.71/-95.99
-NCES dataset: https://nces.ed.gov/ccd/elsi/
+- Edgap dataset: https://www.edgap.org/#4/37.71/-95.99
+- fte_teachers and school information dataset: https://nces.ed.gov/ccd/elsi/
 
 For reference to the datasets:
 - school_information: https://www.dropbox.com/scl/fi/fkafjk8902sq8ptxh94r2/ccd_sch_029_1617_w_1a_11212017.csv?rlkey=gucrdz5f6e38bezz2y3yalxbw&dl=0
