@@ -50,15 +50,19 @@ Before anylyzing, the data needs to be cleaned.
 Results
 - Use IterativeImputer to impute the missing values
 - Export the data
+
+
 Note: cleaning was done using the notebook - https://github.com/kembaoak/education/blob/main/code/Education_clean.ipynb
-To analyze:
+
+To perform exploratory data analysis:
 - Import the clean data
 - create correlation matrix to analyze relationship between predictor variables and ACT score.
 - conduct single regression test
 - conduction multiple regression test
 - Understand the R^2, r, mean absolute error  values and what they imply for the variables
 
-  Exploratory Analyses was completed using notebook: https://github.com/kembaoak/education/blob/main/code/Ediucation_EDA.ipynb
+
+Exploratory Analyses was completed using notebook: https://github.com/kembaoak/education/blob/main/code/Ediucation_EDA.ipynb
   
 Our findings indicate that out of all the socioeconomic predictors, the strongest predictor of the ACT scores was the percentage of students on reduced lunch(percent_lunch) variable. Other predicor variables such as the rate of unemployment, percentage of adult with a college degree, and the number of full time equivalent teachers also contributed to the variation in ACT score but not as significantly as percent_lunch. Note that we cannot establish a causal relationship given all the other confounding factors that must influence ACT scores. 
 
