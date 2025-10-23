@@ -21,11 +21,19 @@ Project Structure
 └── README.md             # Project documentation
 
 Data
+The Edgap dataset was obtained from Edgap.org —a platform that provides maps, visualizations, and resources to encourage discussion about the education gap in the United States. The platform offers access to data on various socioeconomic variables of interest, enabling analysis of factors within districts and individual schools. The EdGap dataset identifies schools only by their National ID. The ID alone does not provide information such as the school’s location, name, or type. To obtain more detailed information linked to these IDs, additional data were retrieved from the National Center for Education Statistics (NCES), the primary statistical agency of the U.S. Department of Education responsible for collecting, processing, and analyzing educational data. Through this source, we gathered further details about each school corresponding to its ID. In addition to the socioeconomic variables present in the EdGap dataset, it was also important to understand the influence of other socioeconomic factors. The variable we chose to study, in order to assess its relationship with ACT scores, was the number of full-time equivalent (FTE) teachers a school employs. This number was calculated by counting one full-time teacher as 1.0 and one part-time teacher as 0.5, meaning two part-time teachers are equivalent to one full-time teacher. The data was also retrieved from the National Center for Education Statistics(NCES) website.
+
+
 Source: 
-school_information: https://www.dropbox.com/scl/fi/fkafjk8902sq8ptxh94r2/ccd_sch_029_1617_w_1a_11212017.csv?rlkey=gucrdz5f6e38bezz2y3yalxbw&dl=0
-edGap_data: https://github.com/brian-fischer/DATA-5100/blob/main/EdGap_data.xlsx
-fte_teachers data: 
-https://github.com/kembaoak/education/blob/main/data/ELSI_csv_export_6389617089029104698184.csv
+The data was obtained from:
+Edgap dataset: https://www.edgap.org/#4/37.71/-95.99
+NCES dataset: https://nces.ed.gov/ccd/elsi/
+
+For reference to the datasets:
+- school_information: https://www.dropbox.com/scl/fi/fkafjk8902sq8ptxh94r2/ccd_sch_029_1617_w_1a_11212017.csv?rlkey=gucrdz5f6e38bezz2y3yalxbw&dl=0
+- edGap_data: https://github.com/brian-fischer/DATA-5100/blob/main/EdGap_data.xlsx
+- fte_teachers data: https://github.com/kembaoak/education/blob/main/data/ELSI_csv_export_6389617089029104698184.csv
+
 Description: Brief overview of the dataset features, size, and format
 
 Analysis
