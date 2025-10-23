@@ -50,14 +50,41 @@ Before anylyzing, the data needs to be cleaned.
 Results
 - Use IterativeImputer to impute the missing values
 - Export the data
+Note: cleaning was done using the notebook - https://github.com/kembaoak/education/blob/main/code/Education_clean.ipynb
 To analyze:
 - Import the clean data
 - create correlation matrix to analyze relationship between predictor variables and ACT score.
 - conduct single regression test
 - conduction multiple regression test
 - Understand the R^2, r, mean absolute error  values and what they imply for the variables
+
+  Exploratory Analyses was completed using notebook: https://github.com/kembaoak/education/blob/main/code/Ediucation_EDA.ipynb
   
 Our findings indicate that out of all the socioeconomic predictors, the strongest predictor of the ACT scores was the percentage of students on reduced lunch(percent_lunch) variable. Other predicor variables such as the rate of unemployment, percentage of adult with a college degree, and the number of full time equivalent teachers also contributed to the variation in ACT score but not as significantly as percent_lunch. Note that we cannot establish a causal relationship given all the other confounding factors that must influence ACT scores. 
+
+Requirements: 
+# Core
+NumPy - is a python library used for numerical operations, arrays, and mathematical calculations.  
+Pandas - is a python library that provides data structures like DataFrames for data manipulation, cleaning, and aggregation.
+
+# Visualization
+matplotlib - A plotting library used to create static visualizations like line plots, bbar charts, and scatter plots. 
+seaborn - is built on Matplotlib, used for advanced statistical data visualizations and improved aesthetics.
+plotly - is a python package for data visualization. It is used to create interactive high quality charts, graphs and dashboards. 
+#Dta Handling
+openpyxl - is a python library used for reading, writing, and editing excel files - especially if it has the modern .xlsx format. 
+
+# Machine Learning
+
+statsmodels - used for statistical modelling and hypothesis testing, including t-tests, z-tests and regression analysis.
+scikit-learn: is a python machine learning library used for machine learning algorithms like regression, classification, etc. 
+
+# Jupyter & Development
+jupyter notebook - An interactive environment for writing and executing Python code, organizaing, and documenting results. 
+ipython - Provides an enchanced Python shells used in Jupyter Notebooks.
+
+#Others
+VS Code - is a free, open source code editor developed by Microsft. It is widely used for programming, data analysis, and development projects. 
 
 Authors
 Your Name -Edwin Okwor
