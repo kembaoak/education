@@ -19,6 +19,7 @@ Project Structure
 ├── reports/              # Generated reports and visualizations
 ├── requirements.txt      # Dependencies
 └── README.md             # Project documentation
+
 Data
 Source: 
 school_information: https://www.dropbox.com/scl/fi/fkafjk8902sq8ptxh94r2/ccd_sch_029_1617_w_1a_11212017.csv?rlkey=gucrdz5f6e38bezz2y3yalxbw&dl=0
