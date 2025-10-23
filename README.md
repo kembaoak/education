@@ -1,5 +1,6 @@
 
 **Analysis of ACT Score and Socioeconomic factors**
+
 The goal of this project is to explore the relationship between ACT Scores and several socioeconmic factors such as employment status, education level, marital status and whether one is in a lunch program at their educational institution. 
 
 Project Overview
